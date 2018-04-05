@@ -15,7 +15,7 @@
 
 + (UIButton *)button;
 
-+ (UILabel *)lable;
++ (UILabel *)label;
 
 + (UIImageView *)imageView;
 

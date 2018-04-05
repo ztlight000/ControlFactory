@@ -38,7 +38,7 @@ static const float FONTSIZE = 14.0f;
 }
 
 
-+ (UILabel *)lable {
++ (UILabel *)label {
     
     UILabel *label = [[UILabel alloc] init];
     
