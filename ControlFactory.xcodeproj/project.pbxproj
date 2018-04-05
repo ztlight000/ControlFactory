@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4943712A207623A500C47BA4 /* ControlFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49437129207623A500C47BA4 /* ControlFactory.m */; };
+		494371402076240400C47BA4 /* UITextView+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943712E2076240200C47BA4 /* UITextView+Decorate.m */; };
+		494371412076240400C47BA4 /* UIView+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943712F2076240200C47BA4 /* UIView+Decorate.m */; };
+		494371422076240400C47BA4 /* UIScrollView+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494371332076240200C47BA4 /* UIScrollView+Decorate.m */; };
+		494371432076240400C47BA4 /* UIPageControl+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 494371382076240300C47BA4 /* UIPageControl+Decorate.m */; };
+		494371442076240400C47BA4 /* UIButton+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943713A2076240300C47BA4 /* UIButton+Decorate.m */; };
+		494371452076240400C47BA4 /* UIImageView+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943713B2076240300C47BA4 /* UIImageView+Decorate.m */; };
+		494371462076240400C47BA4 /* UITextField+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943713C2076240300C47BA4 /* UITextField+Decorate.m */; };
+		494371472076240400C47BA4 /* UIWebView+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943713D2076240400C47BA4 /* UIWebView+Decorate.m */; };
+		494371482076240400C47BA4 /* UILabel+Decorate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4943713E2076240400C47BA4 /* UILabel+Decorate.m */; };
+		4943714B207626A800C47BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4943714A207626A800C47BA4 /* UIKit.framework */; };
 		49B899FD2074D934006F3A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B899FC2074D934006F3A1A /* AppDelegate.m */; };
 		49B89A002074D934006F3A1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B899FF2074D934006F3A1A /* ViewController.m */; };
 		49B89A032074D934006F3A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B89A012074D934006F3A1A /* Main.storyboard */; };
@@ -16,6 +27,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		494371272076238A00C47BA4 /* UIControlTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlTool.h; sourceTree = "<group>"; };
+		49437128207623A500C47BA4 /* ControlFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFactory.h; sourceTree = "<group>"; };
+		49437129207623A500C47BA4 /* ControlFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFactory.m; sourceTree = "<group>"; };
+		4943712C2076240100C47BA4 /* UITextField+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Decorate.h"; sourceTree = "<group>"; };
+		4943712D2076240200C47BA4 /* UIButton+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Decorate.h"; sourceTree = "<group>"; };
+		4943712E2076240200C47BA4 /* UITextView+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Decorate.m"; sourceTree = "<group>"; };
+		4943712F2076240200C47BA4 /* UIView+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Decorate.m"; sourceTree = "<group>"; };
+		494371302076240200C47BA4 /* UIImageView+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Decorate.h"; sourceTree = "<group>"; };
+		494371312076240200C47BA4 /* UITextView+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Decorate.h"; sourceTree = "<group>"; };
+		494371332076240200C47BA4 /* UIScrollView+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Decorate.m"; sourceTree = "<group>"; };
+		494371342076240200C47BA4 /* UIView+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Decorate.h"; sourceTree = "<group>"; };
+		494371352076240200C47BA4 /* UIWebView+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Decorate.h"; sourceTree = "<group>"; };
+		494371362076240300C47BA4 /* UILabel+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Decorate.h"; sourceTree = "<group>"; };
+		494371372076240300C47BA4 /* UIPageControl+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageControl+Decorate.h"; sourceTree = "<group>"; };
+		494371382076240300C47BA4 /* UIPageControl+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageControl+Decorate.m"; sourceTree = "<group>"; };
+		494371392076240300C47BA4 /* UIScrollView+Decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Decorate.h"; sourceTree = "<group>"; };
+		4943713A2076240300C47BA4 /* UIButton+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Decorate.m"; sourceTree = "<group>"; };
+		4943713B2076240300C47BA4 /* UIImageView+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Decorate.m"; sourceTree = "<group>"; };
+		4943713C2076240300C47BA4 /* UITextField+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Decorate.m"; sourceTree = "<group>"; };
+		4943713D2076240400C47BA4 /* UIWebView+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Decorate.m"; sourceTree = "<group>"; };
+		4943713E2076240400C47BA4 /* UILabel+Decorate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Decorate.m"; sourceTree = "<group>"; };
+		4943714A207626A800C47BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49B899F82074D934006F3A1A /* ControlFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B899FB2074D934006F3A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49B899FC2074D934006F3A1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +66,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4943714B207626A800C47BA4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49437149207626A800C47BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4943714A207626A800C47BA4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49B899EF2074D933006F3A1A = {
 			isa = PBXGroup;
 			children = (
 				49B899FA2074D934006F3A1A /* ControlFactory */,
 				49B899F92074D934006F3A1A /* Products */,
+				49437149207626A800C47BA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +101,7 @@
 		49B899FA2074D934006F3A1A /* ControlFactory */ = {
 			isa = PBXGroup;
 			children = (
+				49B89A132074D98E006F3A1A /* ControlTool */,
 				49B899FB2074D934006F3A1A /* AppDelegate.h */,
 				49B899FC2074D934006F3A1A /* AppDelegate.m */,
 				49B899FE2074D934006F3A1A /* ViewController.h */,
@@ -69,6 +113,34 @@
 				49B89A0A2074D934006F3A1A /* main.m */,
 			);
 			path = ControlFactory;
+			sourceTree = "<group>";
+		};
+		49B89A132074D98E006F3A1A /* ControlTool */ = {
+			isa = PBXGroup;
+			children = (
+				494371272076238A00C47BA4 /* UIControlTool.h */,
+				49437128207623A500C47BA4 /* ControlFactory.h */,
+				49437129207623A500C47BA4 /* ControlFactory.m */,
+				4943712D2076240200C47BA4 /* UIButton+Decorate.h */,
+				4943713A2076240300C47BA4 /* UIButton+Decorate.m */,
+				494371302076240200C47BA4 /* UIImageView+Decorate.h */,
+				4943713B2076240300C47BA4 /* UIImageView+Decorate.m */,
+				494371362076240300C47BA4 /* UILabel+Decorate.h */,
+				4943713E2076240400C47BA4 /* UILabel+Decorate.m */,
+				494371372076240300C47BA4 /* UIPageControl+Decorate.h */,
+				494371382076240300C47BA4 /* UIPageControl+Decorate.m */,
+				494371392076240300C47BA4 /* UIScrollView+Decorate.h */,
+				494371332076240200C47BA4 /* UIScrollView+Decorate.m */,
+				4943712C2076240100C47BA4 /* UITextField+Decorate.h */,
+				4943713C2076240300C47BA4 /* UITextField+Decorate.m */,
+				494371312076240200C47BA4 /* UITextView+Decorate.h */,
+				4943712E2076240200C47BA4 /* UITextView+Decorate.m */,
+				494371342076240200C47BA4 /* UIView+Decorate.h */,
+				4943712F2076240200C47BA4 /* UIView+Decorate.m */,
+				494371352076240200C47BA4 /* UIWebView+Decorate.h */,
+				4943713D2076240400C47BA4 /* UIWebView+Decorate.m */,
+			);
+			path = ControlTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +174,7 @@
 				TargetAttributes = {
 					49B899F72074D934006F3A1A = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -142,9 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4943712A207623A500C47BA4 /* ControlFactory.m in Sources */,
+				494371472076240400C47BA4 /* UIWebView+Decorate.m in Sources */,
+				494371442076240400C47BA4 /* UIButton+Decorate.m in Sources */,
+				494371412076240400C47BA4 /* UIView+Decorate.m in Sources */,
 				49B89A002074D934006F3A1A /* ViewController.m in Sources */,
+				494371422076240400C47BA4 /* UIScrollView+Decorate.m in Sources */,
 				49B89A0B2074D934006F3A1A /* main.m in Sources */,
+				494371452076240400C47BA4 /* UIImageView+Decorate.m in Sources */,
+				494371402076240400C47BA4 /* UITextView+Decorate.m in Sources */,
+				494371432076240400C47BA4 /* UIPageControl+Decorate.m in Sources */,
+				494371462076240400C47BA4 /* UITextField+Decorate.m in Sources */,
 				49B899FD2074D934006F3A1A /* AppDelegate.m in Sources */,
+				494371482076240400C47BA4 /* UILabel+Decorate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +360,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ControlFactory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itzt.ControlFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -291,11 +375,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ControlFactory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itzt.ControlFactory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

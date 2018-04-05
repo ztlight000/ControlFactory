@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIControlTool.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    UIButton *btn = [ControlFactory button];
+    
+    btn.buttonText(@"hello world").buttonFont([UIFont systemFontOfSize:12]).buttonFrame(CGRectZero);
+    
+    [self.view addSubview:btn];
+    
 }
 
 
